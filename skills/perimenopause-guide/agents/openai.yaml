@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lila Perimenopause Guide"
+  short_description: "Evidence-aware perimenopause guidance"
+  default_prompt: "Help me understand what may be happening in perimenopause and what to do next."

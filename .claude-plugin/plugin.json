@@ -1,0 +1,21 @@
+{
+  "name": "lila-perimenopause",
+  "version": "0.1.0",
+  "description": "Evidence-aware guidance for perimenopause and menopause questions.",
+  "author": {
+    "name": "Tidalflow Health",
+    "email": "support@tidalflow.ai"
+  },
+  "homepage": "https://getlila.com",
+  "repository": "https://github.com/Tidalflow-Health/lila-perimenopause",
+  "license": "MIT",
+  "keywords": [
+    "perimenopause",
+    "menopause",
+    "women's health",
+    "symptoms",
+    "HRT",
+    "midlife health"
+  ],
+  "skills": "./skills/"
+}
