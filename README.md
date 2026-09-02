@@ -29,6 +29,13 @@ claude plugin marketplace add Tidalflow-Health/lila-perimenopause
 claude plugin install lila-perimenopause@lila-perimenopause
 ```
 
+From inside an interactive Claude Code session, the equivalent commands are:
+
+```text
+/plugin marketplace add Tidalflow-Health/lila-perimenopause
+/plugin install lila-perimenopause@lila-perimenopause
+```
+
 ### Cursor
 
 The repository is a portable [Agent Plugin](https://agent-plugins.org/) and can be loaded directly by Cursor. For local testing, clone or symlink it to:
