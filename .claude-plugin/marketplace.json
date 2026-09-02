@@ -12,7 +12,7 @@
       "name": "lila-perimenopause",
       "source": "./",
       "description": "Understand perimenopause symptoms, testing, treatment options, and useful next steps.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "Tidalflow Health",
         "email": "support@tidalflow.ai"

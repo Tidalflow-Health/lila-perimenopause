@@ -39,6 +39,30 @@ The repository is a portable [Agent Plugin](https://agent-plugins.org/) and can 
 
 Then reload Cursor and open Customize.
 
+### Gemini CLI
+
+```sh
+gemini extensions install https://github.com/Tidalflow-Health/lila-perimenopause
+```
+
+The root `gemini-extension.json` lets Gemini CLI load the same Agent Skill and makes the repository eligible for its public extension gallery.
+
+### Cline and other Agent Skills clients
+
+```sh
+cline skill install Tidalflow-Health/lila-perimenopause --skill perimenopause-guide
+npx skills add Tidalflow-Health/lila-perimenopause --skill perimenopause-guide
+```
+
+### GitHub Copilot CLI
+
+GitHub Copilot CLI can read the Claude-compatible marketplace manifest in this repository:
+
+```sh
+copilot plugin marketplace add Tidalflow-Health/lila-perimenopause
+copilot plugin install lila-perimenopause@lila-perimenopause
+```
+
 ## Example prompts
 
 - “I’m 43, my cycles are suddenly irregular, and I wake up sweating. Could this be perimenopause?”
@@ -50,6 +74,7 @@ Then reload Cursor and open Customize.
 
 ```text
 plugin.json                           Portable Agent Plugins manifest
+gemini-extension.json                Gemini CLI extension manifest
 .codex-plugin/plugin.json             OpenAI/Codex manifest
 .claude-plugin/plugin.json            Claude Code manifest
 .claude-plugin/marketplace.json       Claude Code marketplace
